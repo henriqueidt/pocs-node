@@ -9,6 +9,8 @@ I/O Operations can perform in two ways:
 Javascript by default is `synchronous`, single threaded, blocking language.
 The `reactor pattern` is what makes Node.js Asynchronous
 
+![Reactor Pattern](reactor-pattern.png)
+
 JS runs synchronously with a single `Call Stack` that executes all code that comes in immediately.
 
 Whenever executing a JS code, a `Global Execution Context (GEC)` is created and added to the `Call Stack`, and then JS is executed line by line.
@@ -57,3 +59,4 @@ function example() {
   })
 }
 ````
+
